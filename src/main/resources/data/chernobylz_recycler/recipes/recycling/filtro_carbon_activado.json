@@ -1,0 +1,19 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 2,
+  "processing_time": 80,
+  "ingredient": {
+    "item": "chernobylz_recycler:filtro_carbon_activado"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 4
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 5
+    }
+  ],
+  "components": []
+}

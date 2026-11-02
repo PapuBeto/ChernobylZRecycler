@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 140,
+  "ingredient": {
+    "item": "chernobylz_recycler:lona_cuarentena"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 10
+    }
+  ],
+  "components": []
+}

@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:autoclave_esterilizacion"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 10
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:valvula_antirretorno",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:tubo_presion",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:bobina_cobre",
+      "count": 1
+    }
+  ]
+}

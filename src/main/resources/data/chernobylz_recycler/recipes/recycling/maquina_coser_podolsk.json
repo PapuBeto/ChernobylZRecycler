@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 120,
+  "ingredient": {
+    "item": "chernobylz_recycler:maquina_coser_podolsk"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 8
+    },
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 6
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:engranaje_titanio",
+      "count": 2
+    }
+  ]
+}

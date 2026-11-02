@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:microscopio_quirurgico"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 8
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:lente_optica_precision",
+      "count": 3
+    },
+    {
+      "item": "chernobylz_recycler:engranaje_titanio",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 70,
+  "ingredient": {
+    "item": "chernobylz_recycler:carcasa_enchufe"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 4
+    }
+  ],
+  "components": []
+}

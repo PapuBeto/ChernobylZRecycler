@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 120,
+  "ingredient": {
+    "item": "chernobylz_recycler:microondas_dnepr"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 10
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:bobina_cobre",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:condensador_alto_voltaje",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:placa_circuito_impreso",
+      "count": 1
+    }
+  ]
+}

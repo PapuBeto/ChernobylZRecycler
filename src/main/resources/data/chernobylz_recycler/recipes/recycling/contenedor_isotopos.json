@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:contenedor_isotopos"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 4
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 8
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:nucleo_plomo_sellado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:sensor_dosimetrico",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:valvula_antirretorno",
+      "count": 1
+    }
+  ]
+}

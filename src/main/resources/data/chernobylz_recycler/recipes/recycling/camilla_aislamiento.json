@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:camilla_aislamiento"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 18
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 10
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:tejido_kevlar_plomado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:tubo_presion",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:filtro_carbon_activado",
+      "count": 1
+    }
+  ]
+}

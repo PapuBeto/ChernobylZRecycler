@@ -1,0 +1,877 @@
+{
+  "resources": [
+    { "id": "tela", "es": "Tela", "en": "Cloth" },
+    { "id": "scrap", "es": "Scrap", "en": "Scrap" },
+    { "id": "lingote_pesado", "es": "Lingote Pesado", "en": "Heavy Ingot" }
+  ],
+  "components": [
+    {
+      "id": "engranaje_titanio",
+      "es": "Engranaje de Titanio",
+      "en": "Titanium Gear",
+      "recycle": [["lingote_pesado", 1], ["scrap", 4]],
+      "use_es": "Puertas blindadas, torretas automáticas y mecanismos de cerrojo pesado.",
+      "use_en": "Blast doors, automatic turrets and heavy bolt mechanisms."
+    },
+    {
+      "id": "piston_hidraulico",
+      "es": "Pistón Hidráulico",
+      "en": "Hydraulic Piston",
+      "recycle": [["lingote_pesado", 2], ["scrap", 6]],
+      "use_es": "Exoesqueletos de carga, prensas de munición y trampas de aplastamiento.",
+      "use_en": "Cargo exoskeletons, ammo presses and crushing traps."
+    },
+    {
+      "id": "tubo_presion",
+      "es": "Tubo de Presión",
+      "en": "Pressure Pipe",
+      "recycle": [["lingote_pesado", 1], ["scrap", 4]],
+      "use_es": "Cañones artesanales, lanzallamas y destiladores de agua radiactiva.",
+      "use_en": "Handmade cannons, flamethrowers and radioactive water stills."
+    },
+    {
+      "id": "valvula_antirretorno",
+      "es": "Válvula Antirretorno",
+      "en": "Check Valve",
+      "recycle": [["scrap", 6]],
+      "use_es": "Lanzallamas, bombas de combustible y sistemas de filtrado de base.",
+      "use_en": "Flamethrowers, fuel pumps and base filtration systems."
+    },
+    {
+      "id": "bobina_cobre",
+      "es": "Bobina de Cobre",
+      "en": "Copper Coil",
+      "recycle": [["scrap", 6]],
+      "use_es": "Motores eléctricos, generadores eólicos y cargadores de baterías.",
+      "use_en": "Electric motors, wind generators and battery chargers."
+    },
+    {
+      "id": "cableado_alta_tension",
+      "es": "Cableado de Alta Tensión",
+      "en": "High-Voltage Wiring",
+      "recycle": [["scrap", 6]],
+      "use_es": "Red eléctrica de bases, cercas electrificadas y generadores.",
+      "use_en": "Base power grids, electrified fences and generators."
+    },
+    {
+      "id": "placa_circuito_impreso",
+      "es": "Placa de Circuito Impreso",
+      "en": "Printed Circuit Board",
+      "recycle": [["scrap", 6]],
+      "use_es": "Estaciones de radio, paneles solares y cerraduras electrónicas.",
+      "use_en": "Radio stations, solar panels and electronic locks."
+    },
+    {
+      "id": "condensador_alto_voltaje",
+      "es": "Condensador de Alto Voltaje",
+      "en": "High-Voltage Capacitor",
+      "recycle": [["scrap", 6]],
+      "use_es": "Armas electromagnéticas, modificaciones eléctricas y bobinas Tesla.",
+      "use_en": "Electromagnetic weapons, electric mods and Tesla coils."
+    },
+    {
+      "id": "motor_paso_a_paso",
+      "es": "Motor Paso a Paso",
+      "en": "Stepper Motor",
+      "recycle": [["lingote_pesado", 1], ["scrap", 8]],
+      "use_es": "Drones, torretas centinela y servos de armaduras pesadas.",
+      "use_en": "Drones, sentry turrets and heavy armor servos."
+    },
+    {
+      "id": "microprocesador_militar",
+      "es": "Microprocesador Militar",
+      "en": "Military Microprocessor",
+      "recycle": [["scrap", 10]],
+      "use_es": "Miras térmicas, radares de proximidad y terminales de hackeo.",
+      "use_en": "Thermal sights, proximity radars and hacking terminals."
+    },
+    {
+      "id": "sensor_dosimetrico",
+      "es": "Sensor Dosimétrico",
+      "en": "Dosimetric Sensor",
+      "recycle": [["scrap", 10]],
+      "use_es": "Contadores Geiger avanzados y alarmas de tormenta radiactiva.",
+      "use_en": "Advanced Geiger counters and radioactive storm alarms."
+    },
+    {
+      "id": "lente_optica_precision",
+      "es": "Lente Óptica de Precisión",
+      "en": "Precision Optical Lens",
+      "recycle": [["scrap", 6]],
+      "use_es": "Miras telescópicas, visores nocturnos y telémetros láser.",
+      "use_en": "Telescopic sights, night vision and laser rangefinders."
+    },
+    {
+      "id": "filtro_carbon_activado",
+      "es": "Filtro de Carbón Activado",
+      "en": "Activated Carbon Filter",
+      "recycle": [["tela", 4], ["scrap", 5]],
+      "use_es": "Máscaras de gas, cascos Hazmat y purificadores de aire.",
+      "use_en": "Gas masks, hazmat helmets and air purifiers."
+    },
+    {
+      "id": "tejido_kevlar_plomado",
+      "es": "Tejido de Kevlar Plomado",
+      "en": "Leaded Kevlar Weave",
+      "recycle": [["tela", 6], ["lingote_pesado", 1]],
+      "use_es": "Trajes antirradiación de élite y chalecos antibalas nivel 3.",
+      "use_en": "Elite anti-radiation suits and level 3 ballistic vests."
+    },
+    {
+      "id": "celda_litio_militar",
+      "es": "Celda de Litio Militar",
+      "en": "Military Lithium Cell",
+      "recycle": [["lingote_pesado", 1], ["scrap", 6]],
+      "use_es": "Visores nocturnos, miras holográficas y linternas UV.",
+      "use_en": "Night vision, holographic sights and UV flashlights."
+    },
+    {
+      "id": "nucleo_plomo_sellado",
+      "es": "Núcleo de Plomo Sellado",
+      "en": "Sealed Lead Core",
+      "recycle": [["lingote_pesado", 3], ["scrap", 2]],
+      "use_es": "Munición perforante, escudos antidisturbios y cofres ocultos.",
+      "use_en": "Armor-piercing ammo, riot shields and hidden safes."
+    }
+  ],
+  "objects": [
+    {
+      "id": "motor_grua_sovietica",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Motor de Grúa Soviética Oxidado",
+      "en": "Rusted Soviet Crane Motor",
+      "base": [["lingote_pesado", 4], ["scrap", 18]],
+      "components": [["engranaje_titanio", 2], ["piston_hidraulico", 1], ["bobina_cobre", 2]]
+    },
+    {
+      "id": "taladro_percutor_mina",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Taladro Percutor de Mina",
+      "en": "Mine Percussion Drill",
+      "base": [["lingote_pesado", 2], ["scrap", 12]],
+      "components": [["engranaje_titanio", 1], ["tubo_presion", 1], ["cableado_alta_tension", 1]]
+    },
+    {
+      "id": "compresor_aire_fabrica",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Compresor de Aire de Fábrica",
+      "en": "Factory Air Compressor",
+      "base": [["lingote_pesado", 3], ["scrap", 15]],
+      "components": [["tubo_presion", 2], ["valvula_antirretorno", 1], ["piston_hidraulico", 1]]
+    },
+    {
+      "id": "bomba_hidraulica_refrigeracion",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Bomba Hidráulica de Refrigeración",
+      "en": "Cooling Hydraulic Pump",
+      "base": [["lingote_pesado", 3], ["scrap", 10]],
+      "components": [["valvula_antirretorno", 2], ["tubo_presion", 2]]
+    },
+    {
+      "id": "soldadora_arco_portatil",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Soldadora de Arco Portátil",
+      "en": "Portable Arc Welder",
+      "base": [["lingote_pesado", 1], ["scrap", 16]],
+      "components": [["bobina_cobre", 2], ["cableado_alta_tension", 2], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "caja_engranajes_tractor",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Caja de Engranajes de Tractor",
+      "en": "Tractor Gearbox",
+      "base": [["lingote_pesado", 3], ["scrap", 12]],
+      "components": [["engranaje_titanio", 3], ["piston_hidraulico", 1]]
+    },
+    {
+      "id": "traje_hazmat_liquidador",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Traje Hazmat de Liquidador Rasgado",
+      "en": "Torn Liquidator Hazmat Suit",
+      "base": [["tela", 14], ["scrap", 6]],
+      "components": [["tejido_kevlar_plomado", 2], ["filtro_carbon_activado", 1], ["lente_optica_precision", 1]]
+    },
+    {
+      "id": "contador_geiger_pripyat",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Contador Geiger \"Pripyat-M\" Roto",
+      "en": "Broken \"Pripyat-M\" Geiger Counter",
+      "base": [["scrap", 10]],
+      "components": [["sensor_dosimetrico", 1], ["placa_circuito_impreso", 1], ["celda_litio_militar", 1]]
+    },
+    {
+      "id": "respirador_papr",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Respirador Purificador Autónomo (PAPR)",
+      "en": "Self-Contained PAPR Respirator",
+      "base": [["tela", 8], ["scrap", 8]],
+      "components": [["filtro_carbon_activado", 2], ["tubo_presion", 1], ["celda_litio_militar", 1]]
+    },
+    {
+      "id": "centrifugadora_muestras",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Centrifugadora de Muestras Tóxicas",
+      "en": "Toxic Sample Centrifuge",
+      "base": [["lingote_pesado", 2], ["scrap", 14]],
+      "components": [["motor_paso_a_paso", 1], ["valvula_antirretorno", 2], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "contenedor_isotopos",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Contenedor de Isótopos con Fuga",
+      "en": "Leaking Isotope Container",
+      "base": [["lingote_pesado", 4], ["scrap", 8]],
+      "components": [["nucleo_plomo_sellado", 1], ["sensor_dosimetrico", 1], ["valvula_antirretorno", 1]]
+    },
+    {
+      "id": "rociador_descontaminacion",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Rociador de Descontaminación Químico",
+      "en": "Chemical Decontamination Sprayer",
+      "base": [["tela", 4], ["scrap", 10]],
+      "components": [["tubo_presion", 2], ["valvula_antirretorno", 1], ["filtro_carbon_activado", 1]]
+    },
+    {
+      "id": "bateria_tanque_t72",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Batería de Tanque T-72 Sulfatada",
+      "en": "Sulfated T-72 Tank Battery",
+      "base": [["lingote_pesado", 5], ["scrap", 12]],
+      "components": [["nucleo_plomo_sellado", 2], ["celda_litio_militar", 2]]
+    },
+    {
+      "id": "visor_nocturno_pnv57",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Visor Nocturno Soviético \"PNV-57\"",
+      "en": "Soviet \"PNV-57\" Night Vision",
+      "base": [["tela", 4], ["scrap", 10]],
+      "components": [["lente_optica_precision", 2], ["microprocesador_militar", 1], ["celda_litio_militar", 1]]
+    },
+    {
+      "id": "chaleco_balistico_6b3",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Chaleco Balístico \"6B3\" Perforado",
+      "en": "Perforated \"6B3\" Ballistic Vest",
+      "base": [["tela", 16], ["lingote_pesado", 2]],
+      "components": [["tejido_kevlar_plomado", 3], ["engranaje_titanio", 1]]
+    },
+    {
+      "id": "radio_campana_r159",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Radio de Campaña Cifrada \"R-159\"",
+      "en": "Encrypted \"R-159\" Field Radio",
+      "base": [["lingote_pesado", 1], ["scrap", 16]],
+      "components": [["microprocesador_militar", 2], ["placa_circuito_impreso", 2], ["bobina_cobre", 1]]
+    },
+    {
+      "id": "modulo_punteria_btr",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Módulo de Puntería de Torreta BTR",
+      "en": "BTR Turret Targeting Module",
+      "base": [["lingote_pesado", 3], ["scrap", 14]],
+      "components": [["lente_optica_precision", 2], ["motor_paso_a_paso", 1], ["microprocesador_militar", 1]]
+    },
+    {
+      "id": "dron_reconocimiento",
+      "zone": "military",
+      "tier": 3,
+      "kind": "compound",
+      "es": "Dron de Reconocimiento Derribado",
+      "en": "Downed Recon Drone",
+      "base": [["lingote_pesado", 1], ["scrap", 18]],
+      "components": [["motor_paso_a_paso", 2], ["microprocesador_militar", 1], ["celda_litio_militar", 1], ["lente_optica_precision", 1]]
+    },
+    {
+      "id": "desfibrilador_portatil",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Desfibrilador Portátil de Emergencia",
+      "en": "Portable Emergency Defibrillator",
+      "base": [["tela", 4], ["scrap", 12]],
+      "components": [["condensador_alto_voltaje", 2], ["celda_litio_militar", 1], ["cableado_alta_tension", 1]]
+    },
+    {
+      "id": "microscopio_quirurgico",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Microscopio Quirúrgico Binocular",
+      "en": "Binocular Surgical Microscope",
+      "base": [["lingote_pesado", 1], ["scrap", 8]],
+      "components": [["lente_optica_precision", 3], ["engranaje_titanio", 1]]
+    },
+    {
+      "id": "ventilador_pulmonar_uci",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Ventilador Pulmonar de UCI",
+      "en": "ICU Lung Ventilator",
+      "base": [["tela", 6], ["scrap", 12]],
+      "components": [["motor_paso_a_paso", 1], ["tubo_presion", 2], ["filtro_carbon_activado", 1], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "monitor_signos_vitales",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Monitor de Signos Vitales Radiológico",
+      "en": "Radiological Vital Signs Monitor",
+      "base": [["scrap", 12]],
+      "components": [["placa_circuito_impreso", 2], ["sensor_dosimetrico", 1], ["condensador_alto_voltaje", 1]]
+    },
+    {
+      "id": "autoclave_esterilizacion",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Autoclave de Esterilización Rápida",
+      "en": "Rapid Sterilization Autoclave",
+      "base": [["lingote_pesado", 2], ["scrap", 10]],
+      "components": [["valvula_antirretorno", 2], ["tubo_presion", 1], ["bobina_cobre", 1]]
+    },
+    {
+      "id": "camilla_aislamiento",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "compound",
+      "es": "Camilla de Aislamiento Biológico",
+      "en": "Biological Isolation Stretcher",
+      "base": [["tela", 18], ["scrap", 10]],
+      "components": [["tejido_kevlar_plomado", 1], ["tubo_presion", 2], ["filtro_carbon_activado", 1]]
+    },
+    {
+      "id": "abrigo_afghanka",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Abrigo Militar de Invierno \"Afghanka\"",
+      "en": "\"Afghanka\" Winter Military Coat",
+      "base": [["tela", 18], ["scrap", 2]],
+      "components": [["tejido_kevlar_plomado", 1]]
+    },
+    {
+      "id": "microondas_dnepr",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Horno Microondas \"Dnepr\" Quemado",
+      "en": "Burnt \"Dnepr\" Microwave",
+      "base": [["lingote_pesado", 1], ["scrap", 10]],
+      "components": [["bobina_cobre", 1], ["condensador_alto_voltaje", 1], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "televisor_rubin",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Televisor de Tubo Soviético \"Rubin\"",
+      "en": "Soviet \"Rubin\" CRT TV",
+      "base": [["scrap", 12]],
+      "components": [["bobina_cobre", 2], ["condensador_alto_voltaje", 1], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "lavadora_vyatka",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Lavadora Doméstica \"Vyatka\" Oxidada",
+      "en": "Rusted \"Vyatka\" Washing Machine",
+      "base": [["lingote_pesado", 2], ["scrap", 12]],
+      "components": [["motor_paso_a_paso", 1], ["tubo_presion", 1], ["valvula_antirretorno", 1]]
+    },
+    {
+      "id": "maquina_coser_podolsk",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Máquina de Coser Mecánica \"Podolsk\"",
+      "en": "\"Podolsk\" Mechanical Sewing Machine",
+      "base": [["lingote_pesado", 1], ["scrap", 8], ["tela", 6]],
+      "components": [["engranaje_titanio", 2]]
+    },
+    {
+      "id": "aspiradora_raketa",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Aspiradora Cilíndrica \"Raketa\"",
+      "en": "\"Raketa\" Cylinder Vacuum",
+      "base": [["tela", 8], ["scrap", 8]],
+      "components": [["tubo_presion", 1], ["bobina_cobre", 1], ["cableado_alta_tension", 1]]
+    },
+    {
+      "id": "transformador_subestacion",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Transformador de Subestación Eléctrica",
+      "en": "Substation Transformer",
+      "base": [["lingote_pesado", 3], ["scrap", 14]],
+      "components": [["bobina_cobre", 3], ["condensador_alto_voltaje", 2], ["cableado_alta_tension", 1]]
+    },
+    {
+      "id": "panel_control_reactor",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Panel de Control del Reactor (Fragmento)",
+      "en": "Reactor Control Panel (Fragment)",
+      "base": [["lingote_pesado", 1], ["scrap", 16]],
+      "components": [["placa_circuito_impreso", 2], ["sensor_dosimetrico", 1], ["cableado_alta_tension", 2]]
+    },
+    {
+      "id": "alternador_generador_diesel",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Alternador de Generador Diésel",
+      "en": "Diesel Generator Alternator",
+      "base": [["lingote_pesado", 2], ["scrap", 10]],
+      "components": [["bobina_cobre", 2], ["engranaje_titanio", 1], ["cableado_alta_tension", 1]]
+    },
+    {
+      "id": "estabilizador_voltaje",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Estabilizador de Voltaje Industrial",
+      "en": "Industrial Voltage Stabilizer",
+      "base": [["scrap", 12]],
+      "components": [["condensador_alto_voltaje", 2], ["placa_circuito_impreso", 1], ["bobina_cobre", 1]]
+    },
+    {
+      "id": "bateria_ups_servidor",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Batería de Respaldo UPS de Servidor",
+      "en": "Server UPS Backup Battery",
+      "base": [["lingote_pesado", 2], ["scrap", 8]],
+      "components": [["nucleo_plomo_sellado", 1], ["celda_litio_militar", 1], ["placa_circuito_impreso", 1]]
+    },
+    {
+      "id": "caja_disyuntores_trifasicos",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "compound",
+      "es": "Caja de Disyuntores Trifásicos",
+      "en": "Three-Phase Breaker Box",
+      "base": [["scrap", 10]],
+      "components": [["cableado_alta_tension", 2], ["condensador_alto_voltaje", 1], ["bobina_cobre", 1]]
+    },
+    {
+      "id": "viga_acero_retorcida",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Viga de Acero Retorcida",
+      "en": "Twisted Steel Beam",
+      "base": [["lingote_pesado", 2]]
+    },
+    {
+      "id": "contrapeso_grua",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Contrapeso de Grúa Fraccionado",
+      "en": "Fragmented Crane Counterweight",
+      "base": [["lingote_pesado", 3]]
+    },
+    {
+      "id": "cadena_remolque",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Cadena de Remolque Oxidada",
+      "en": "Rusted Tow Chain",
+      "base": [["lingote_pesado", 1], ["scrap", 6]]
+    },
+    {
+      "id": "lamina_techo_corrugada",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Lámina de Techo Corrugada",
+      "en": "Corrugated Roof Sheet",
+      "base": [["scrap", 10]]
+    },
+    {
+      "id": "caja_clavos_tuercas",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Caja de Clavos y Tuercas Dobladas",
+      "en": "Box of Nails and Bent Nuts",
+      "base": [["scrap", 8]]
+    },
+    {
+      "id": "guantes_soldador",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Guantes de Soldador Carbonizados",
+      "en": "Charred Welder Gloves",
+      "base": [["tela", 6], ["scrap", 2]]
+    },
+    {
+      "id": "casco_minero",
+      "zone": "industrial",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Casco de Minero Agrietado",
+      "en": "Cracked Miner Helmet",
+      "base": [["scrap", 5], ["tela", 2]]
+    },
+    {
+      "id": "ladrillo_blindaje_plomo",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Ladrillo de Blindaje de Plomo",
+      "en": "Lead Shielding Brick",
+      "base": [["lingote_pesado", 3]]
+    },
+    {
+      "id": "delantal_laboratorio",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Delantal de Laboratorio Plomado",
+      "en": "Leaded Lab Apron",
+      "base": [["tela", 6], ["lingote_pesado", 2]]
+    },
+    {
+      "id": "bidon_acido",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Bidón de Ácido Vacío Corroído",
+      "en": "Corroded Empty Acid Drum",
+      "base": [["scrap", 8]]
+    },
+    {
+      "id": "botas_goma_descontaminantes",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Botas de Goma Descontaminantes Perforadas",
+      "en": "Perforated Decon Rubber Boots",
+      "base": [["tela", 5], ["scrap", 4]]
+    },
+    {
+      "id": "lona_cuarentena",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Lona de Cuarentena Amarilla (Trozo)",
+      "en": "Yellow Quarantine Tarp (Piece)",
+      "base": [["tela", 10]]
+    },
+    {
+      "id": "mascarilla_gp5",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Mascarilla Antigas \"GP-5\" Derretida",
+      "en": "Melted \"GP-5\" Gas Mask",
+      "base": [["tela", 4], ["scrap", 4]]
+    },
+    {
+      "id": "gradilla_tubos_ensayo",
+      "zone": "chemical",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Gradilla con Tubos de Ensayo Fundidos",
+      "en": "Rack of Melted Test Tubes",
+      "base": [["scrap", 6]]
+    },
+    {
+      "id": "placa_balistica_acero",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Placa Balística de Acero Destrozada",
+      "en": "Shattered Steel Ballistic Plate",
+      "base": [["lingote_pesado", 3]]
+    },
+    {
+      "id": "eslabon_oruga_tanque",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Eslabón de Oruga de Tanque",
+      "en": "Tank Track Link",
+      "base": [["lingote_pesado", 4]]
+    },
+    {
+      "id": "caja_municion_50",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Caja de Munición Calibre .50 Vacía",
+      "en": "Empty .50 Cal Ammo Box",
+      "base": [["lingote_pesado", 1], ["scrap", 6]]
+    },
+    {
+      "id": "casco_ssh68",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Casco Soviético \"SSh-68\" Abollado",
+      "en": "Dented \"SSh-68\" Soviet Helmet",
+      "base": [["lingote_pesado", 1], ["scrap", 4]]
+    },
+    {
+      "id": "cargador_baquelita_ak74",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Cargador de Baquelita Roto (AK-74)",
+      "en": "Broken Bakelite AK-74 Magazine",
+      "base": [["scrap", 7]]
+    },
+    {
+      "id": "red_camuflaje",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Red de Camuflaje Militar Quemada",
+      "en": "Burnt Military Camo Net",
+      "base": [["tela", 14]]
+    },
+    {
+      "id": "botas_paracaidista",
+      "zone": "military",
+      "tier": 3,
+      "kind": "simple",
+      "es": "Botas Tácticas de Paracaidista Desgastadas",
+      "en": "Worn Paratrooper Tactical Boots",
+      "base": [["tela", 8], ["scrap", 3]]
+    },
+    {
+      "id": "rollo_vendas_yodo",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Rollo de Vendas Contaminadas con Yodo",
+      "en": "Roll of Iodine-Contaminated Bandages",
+      "base": [["tela", 8]]
+    },
+    {
+      "id": "sabana_quirurgica",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Sábana Quirúrgica Manchada",
+      "en": "Stained Surgical Sheet",
+      "base": [["tela", 12]]
+    },
+    {
+      "id": "bata_paciente",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Bata de Paciente del Sanatorio",
+      "en": "Sanatorium Patient Gown",
+      "base": [["tela", 9]]
+    },
+    {
+      "id": "bandeja_instrumentos",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Bandeja de Instrumentos Quirúrgicos Doblados",
+      "en": "Tray of Bent Surgical Instruments",
+      "base": [["lingote_pesado", 1], ["scrap", 5]]
+    },
+    {
+      "id": "soporte_suero",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Soporte de Suero Intravenoso Oxidado",
+      "en": "Rusted IV Drip Stand",
+      "base": [["scrap", 9]]
+    },
+    {
+      "id": "bolsa_desechos_biologicos",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Bolsa de Desechos Biológicos Sellada",
+      "en": "Sealed Biohazard Waste Bag",
+      "base": [["tela", 4], ["scrap", 6]]
+    },
+    {
+      "id": "muleta_aluminio",
+      "zone": "hospital",
+      "tier": 2,
+      "kind": "simple",
+      "es": "Muleta de Aluminio Doblada",
+      "en": "Bent Aluminum Crutch",
+      "base": [["scrap", 7], ["tela", 2]]
+    },
+    {
+      "id": "taza_peltre",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Taza de Peltre con Escudo Soviético",
+      "en": "Pewter Cup with Soviet Crest",
+      "base": [["scrap", 3]]
+    },
+    {
+      "id": "olla_presion",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Olla a Presión de Aluminio Abollada",
+      "en": "Dented Aluminum Pressure Cooker",
+      "base": [["scrap", 8]]
+    },
+    {
+      "id": "radiador_hierro",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Radiador Doméstico de Hierro Fundido",
+      "en": "Cast Iron Home Radiator",
+      "base": [["lingote_pesado", 2], ["scrap", 4]]
+    },
+    {
+      "id": "gorro_ushanka",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Gorro \"Ushanka\" Apolillado",
+      "en": "Moth-Eaten \"Ushanka\" Hat",
+      "base": [["tela", 7]]
+    },
+    {
+      "id": "vaqueros_rasgados",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Vaqueros Rasgados de Evacuado",
+      "en": "Torn Evacuee Jeans",
+      "base": [["tela", 8]]
+    },
+    {
+      "id": "alfombra_persa",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Alfombra Persa de Pared Quemada",
+      "en": "Burnt Persian Wall Rug",
+      "base": [["tela", 16]]
+    },
+    {
+      "id": "muneca_irradiada",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Muñeca Rota Irradiada",
+      "en": "Broken Irradiated Doll",
+      "base": [["scrap", 4], ["tela", 3]]
+    },
+    {
+      "id": "cubiertos_acero",
+      "zone": "residential",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Cubiertos de Acero Oxidados (Juego)",
+      "en": "Rusted Steel Cutlery (Set)",
+      "base": [["scrap", 5]]
+    },
+    {
+      "id": "cable_telefonico",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Rollo de Cable Telefónico Pelado",
+      "en": "Roll of Stripped Telephone Cable",
+      "base": [["scrap", 7]]
+    },
+    {
+      "id": "aislador_ceramico",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Aislador Cerámico de Poste con Herraje",
+      "en": "Ceramic Pole Insulator with Bracket",
+      "base": [["scrap", 6]]
+    },
+    {
+      "id": "fusible_porcelana",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Fusible Industrial de Porcelana Fundido",
+      "en": "Blown Porcelain Industrial Fuse",
+      "base": [["scrap", 5]]
+    },
+    {
+      "id": "carcasa_enchufe",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Carcasa de Plástico de Enchufe Múltiple",
+      "en": "Plastic Power Strip Shell",
+      "base": [["scrap", 4]]
+    },
+    {
+      "id": "tubo_fluorescente",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Tubo Fluorescente Roto (Chasis)",
+      "en": "Broken Fluorescent Tube (Chassis)",
+      "base": [["scrap", 8]]
+    },
+    {
+      "id": "placa_disipadora_aluminio",
+      "zone": "electrical",
+      "tier": 1,
+      "kind": "simple",
+      "es": "Placa Disipadora de Aluminio",
+      "en": "Aluminum Heatsink Plate",
+      "base": [["lingote_pesado", 1], ["scrap", 3]]
+    }
+  ]
+}

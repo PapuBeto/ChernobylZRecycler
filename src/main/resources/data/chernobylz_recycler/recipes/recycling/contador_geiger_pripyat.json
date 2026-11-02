@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:contador_geiger_pripyat"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 10
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:sensor_dosimetrico",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:placa_circuito_impreso",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:celda_litio_militar",
+      "count": 1
+    }
+  ]
+}

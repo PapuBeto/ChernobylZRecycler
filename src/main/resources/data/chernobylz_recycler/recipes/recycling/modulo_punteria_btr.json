@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:modulo_punteria_btr"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 3
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 14
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:lente_optica_precision",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:motor_paso_a_paso",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:microprocesador_militar",
+      "count": 1
+    }
+  ]
+}

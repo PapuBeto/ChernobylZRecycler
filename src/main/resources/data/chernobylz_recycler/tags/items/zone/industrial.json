@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:motor_grua_sovietica",
+    "chernobylz_recycler:taladro_percutor_mina",
+    "chernobylz_recycler:compresor_aire_fabrica",
+    "chernobylz_recycler:bomba_hidraulica_refrigeracion",
+    "chernobylz_recycler:soldadora_arco_portatil",
+    "chernobylz_recycler:caja_engranajes_tractor",
+    "chernobylz_recycler:viga_acero_retorcida",
+    "chernobylz_recycler:contrapeso_grua",
+    "chernobylz_recycler:cadena_remolque",
+    "chernobylz_recycler:lamina_techo_corrugada",
+    "chernobylz_recycler:caja_clavos_tuercas",
+    "chernobylz_recycler:guantes_soldador",
+    "chernobylz_recycler:casco_minero"
+  ]
+}

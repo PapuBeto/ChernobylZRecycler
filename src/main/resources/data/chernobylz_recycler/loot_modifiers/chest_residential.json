@@ -1,0 +1,33 @@
+{
+  "type": "chernobylz_recycler:inject_tag_items",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_1" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_3" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_4" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_5" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_6" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_7" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_8" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_9" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_10" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/remains_11" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/knapsack" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/blueluggage" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/blackluggage" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/redluggage" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/greyluggage" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/trashbag" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/trashbag_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/trashbag_3" }
+      ]
+    }
+  ],
+  "tag": "chernobylz_recycler:zone/residential",
+  "chance": 0.4,
+  "min": 1,
+  "max": 2
+}

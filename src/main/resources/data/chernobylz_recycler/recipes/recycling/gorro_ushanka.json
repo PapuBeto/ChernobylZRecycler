@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 70,
+  "ingredient": {
+    "item": "chernobylz_recycler:gorro_ushanka"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 7
+    }
+  ],
+  "components": []
+}

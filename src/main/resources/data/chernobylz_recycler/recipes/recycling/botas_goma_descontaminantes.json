@@ -1,0 +1,19 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 140,
+  "ingredient": {
+    "item": "chernobylz_recycler:botas_goma_descontaminantes"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 5
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 4
+    }
+  ],
+  "components": []
+}

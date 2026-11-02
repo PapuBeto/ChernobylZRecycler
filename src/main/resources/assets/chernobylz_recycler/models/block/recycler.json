@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "chernobylz_recycler:block/recycler_side",
+    "down": "chernobylz_recycler:block/recycler_top",
+    "up": "chernobylz_recycler:block/recycler_top",
+    "north": "chernobylz_recycler:block/recycler_front",
+    "south": "chernobylz_recycler:block/recycler_side",
+    "east": "chernobylz_recycler:block/recycler_side",
+    "west": "chernobylz_recycler:block/recycler_side"
+  }
+}

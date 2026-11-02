@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "chernobylz_recycler:item/radiador_hierro"
+  }
+}

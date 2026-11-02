@@ -1,0 +1,19 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 2,
+  "processing_time": 80,
+  "ingredient": {
+    "item": "chernobylz_recycler:tejido_kevlar_plomado"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 6
+    },
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    }
+  ],
+  "components": []
+}

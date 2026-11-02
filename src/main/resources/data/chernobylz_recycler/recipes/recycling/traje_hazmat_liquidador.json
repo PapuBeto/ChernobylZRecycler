@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:traje_hazmat_liquidador"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 14
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 6
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:tejido_kevlar_plomado",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:filtro_carbon_activado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:lente_optica_precision",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "chernobylz_recycler:block/recycler"
+    }
+  }
+}

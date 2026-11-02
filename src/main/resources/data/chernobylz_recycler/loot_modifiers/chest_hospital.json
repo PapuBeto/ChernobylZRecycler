@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:inject_tag_items",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/firstaidkit" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/medicalbox" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/ambulance_1" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/ambulance_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/ambulance_3" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/chemicalprotectiveclothing" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/chemicalprotectiveclothing_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/beaker" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/glassware" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "zombiekit:chests/medicalairdrop1" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "zombiekit:chests/medicalairdrop2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "zombiekit:chests/medicalairdrop3" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "zombiekit:chests/medicalairdrop4" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "zombiekit:chests/medicalairdrop5" }
+      ]
+    }
+  ],
+  "tag": "chernobylz_recycler:zone/hospital",
+  "chance": 0.4,
+  "min": 1,
+  "max": 2
+}

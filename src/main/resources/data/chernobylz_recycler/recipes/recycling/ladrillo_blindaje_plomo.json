@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 140,
+  "ingredient": {
+    "item": "chernobylz_recycler:ladrillo_blindaje_plomo"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 3
+    }
+  ],
+  "components": []
+}

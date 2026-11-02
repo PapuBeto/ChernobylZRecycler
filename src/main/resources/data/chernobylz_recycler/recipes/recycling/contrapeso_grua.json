@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 100,
+  "ingredient": {
+    "item": "chernobylz_recycler:contrapeso_grua"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 3
+    }
+  ],
+  "components": []
+}

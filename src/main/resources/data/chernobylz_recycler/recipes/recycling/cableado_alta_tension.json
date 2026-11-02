@@ -1,0 +1,15 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 2,
+  "processing_time": 80,
+  "ingredient": {
+    "item": "chernobylz_recycler:cableado_alta_tension"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 6
+    }
+  ],
+  "components": []
+}

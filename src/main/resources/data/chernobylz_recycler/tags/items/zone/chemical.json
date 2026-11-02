@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:traje_hazmat_liquidador",
+    "chernobylz_recycler:contador_geiger_pripyat",
+    "chernobylz_recycler:respirador_papr",
+    "chernobylz_recycler:centrifugadora_muestras",
+    "chernobylz_recycler:contenedor_isotopos",
+    "chernobylz_recycler:rociador_descontaminacion",
+    "chernobylz_recycler:ladrillo_blindaje_plomo",
+    "chernobylz_recycler:delantal_laboratorio",
+    "chernobylz_recycler:bidon_acido",
+    "chernobylz_recycler:botas_goma_descontaminantes",
+    "chernobylz_recycler:lona_cuarentena",
+    "chernobylz_recycler:mascarilla_gp5",
+    "chernobylz_recycler:gradilla_tubos_ensayo"
+  ]
+}

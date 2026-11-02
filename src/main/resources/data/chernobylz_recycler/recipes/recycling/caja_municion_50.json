@@ -1,0 +1,19 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 140,
+  "ingredient": {
+    "item": "chernobylz_recycler:caja_municion_50"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 6
+    }
+  ],
+  "components": []
+}

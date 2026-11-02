@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:desfibrilador_portatil",
+    "chernobylz_recycler:microscopio_quirurgico",
+    "chernobylz_recycler:ventilador_pulmonar_uci",
+    "chernobylz_recycler:monitor_signos_vitales",
+    "chernobylz_recycler:autoclave_esterilizacion",
+    "chernobylz_recycler:camilla_aislamiento",
+    "chernobylz_recycler:rollo_vendas_yodo",
+    "chernobylz_recycler:sabana_quirurgica",
+    "chernobylz_recycler:bata_paciente",
+    "chernobylz_recycler:bandeja_instrumentos",
+    "chernobylz_recycler:soporte_suero",
+    "chernobylz_recycler:bolsa_desechos_biologicos",
+    "chernobylz_recycler:muleta_aluminio"
+  ]
+}

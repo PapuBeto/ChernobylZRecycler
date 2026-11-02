@@ -1,0 +1,36 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:dron_reconocimiento"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 18
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:motor_paso_a_paso",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:microprocesador_militar",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:celda_litio_militar",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:lente_optica_precision",
+      "count": 1
+    }
+  ]
+}

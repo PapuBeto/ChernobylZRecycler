@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:bateria_tanque_t72"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 5
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 12
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:nucleo_plomo_sellado",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:celda_litio_militar",
+      "count": 2
+    }
+  ]
+}

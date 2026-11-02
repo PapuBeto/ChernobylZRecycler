@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:inject_tag_items",
+  "conditions": [
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/toolbox" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/metaldrawer" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/metalcabinet" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/draw" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/draw_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/draw_3" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/carton" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/carton_2" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/oildrum" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/gastank" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/generator" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/fixedgenerator" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/trailergenerator" },
+        { "condition": "forge:loot_table_id", "loot_table_id": "doomsday_functionality:chests/forklifttruck" }
+      ]
+    }
+  ],
+  "tag": "chernobylz_recycler:zone/industrial",
+  "chance": 0.4,
+  "min": 1,
+  "max": 2
+}

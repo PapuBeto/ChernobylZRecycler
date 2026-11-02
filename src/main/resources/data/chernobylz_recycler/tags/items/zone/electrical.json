@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:transformador_subestacion",
+    "chernobylz_recycler:panel_control_reactor",
+    "chernobylz_recycler:alternador_generador_diesel",
+    "chernobylz_recycler:estabilizador_voltaje",
+    "chernobylz_recycler:bateria_ups_servidor",
+    "chernobylz_recycler:caja_disyuntores_trifasicos",
+    "chernobylz_recycler:cable_telefonico",
+    "chernobylz_recycler:aislador_ceramico",
+    "chernobylz_recycler:fusible_porcelana",
+    "chernobylz_recycler:carcasa_enchufe",
+    "chernobylz_recycler:tubo_fluorescente",
+    "chernobylz_recycler:placa_disipadora_aluminio"
+  ]
+}

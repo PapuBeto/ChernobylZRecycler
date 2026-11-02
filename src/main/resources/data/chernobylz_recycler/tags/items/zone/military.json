@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:bateria_tanque_t72",
+    "chernobylz_recycler:visor_nocturno_pnv57",
+    "chernobylz_recycler:chaleco_balistico_6b3",
+    "chernobylz_recycler:radio_campana_r159",
+    "chernobylz_recycler:modulo_punteria_btr",
+    "chernobylz_recycler:dron_reconocimiento",
+    "chernobylz_recycler:placa_balistica_acero",
+    "chernobylz_recycler:eslabon_oruga_tanque",
+    "chernobylz_recycler:caja_municion_50",
+    "chernobylz_recycler:casco_ssh68",
+    "chernobylz_recycler:cargador_baquelita_ak74",
+    "chernobylz_recycler:red_camuflaje",
+    "chernobylz_recycler:botas_paracaidista"
+  ]
+}

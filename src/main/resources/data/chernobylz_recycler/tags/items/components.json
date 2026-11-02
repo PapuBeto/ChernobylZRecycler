@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "chernobylz_recycler:engranaje_titanio",
+    "chernobylz_recycler:piston_hidraulico",
+    "chernobylz_recycler:tubo_presion",
+    "chernobylz_recycler:valvula_antirretorno",
+    "chernobylz_recycler:bobina_cobre",
+    "chernobylz_recycler:cableado_alta_tension",
+    "chernobylz_recycler:placa_circuito_impreso",
+    "chernobylz_recycler:condensador_alto_voltaje",
+    "chernobylz_recycler:motor_paso_a_paso",
+    "chernobylz_recycler:microprocesador_militar",
+    "chernobylz_recycler:sensor_dosimetrico",
+    "chernobylz_recycler:lente_optica_precision",
+    "chernobylz_recycler:filtro_carbon_activado",
+    "chernobylz_recycler:tejido_kevlar_plomado",
+    "chernobylz_recycler:celda_litio_militar",
+    "chernobylz_recycler:nucleo_plomo_sellado"
+  ]
+}

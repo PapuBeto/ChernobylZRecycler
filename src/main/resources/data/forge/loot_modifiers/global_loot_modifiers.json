@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "entries": [
+    "chernobylz_recycler:zombie_junk_0",
+    "chernobylz_recycler:zombie_compound_0",
+    "chernobylz_recycler:zombie_junk_1",
+    "chernobylz_recycler:zombie_compound_1",
+    "chernobylz_recycler:zombie_junk_2",
+    "chernobylz_recycler:zombie_compound_2",
+    "chernobylz_recycler:zombie_junk_3",
+    "chernobylz_recycler:zombie_compound_3",
+    "chernobylz_recycler:zombie_junk_4",
+    "chernobylz_recycler:zombie_compound_4",
+    "chernobylz_recycler:chest_industrial",
+    "chernobylz_recycler:chest_chemical",
+    "chernobylz_recycler:chest_military",
+    "chernobylz_recycler:chest_hospital",
+    "chernobylz_recycler:chest_residential",
+    "chernobylz_recycler:chest_electrical"
+  ]
+}

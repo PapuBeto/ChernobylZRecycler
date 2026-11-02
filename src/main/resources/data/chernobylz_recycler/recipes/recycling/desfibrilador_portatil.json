@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:desfibrilador_portatil"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 4
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 12
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:condensador_alto_voltaje",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:celda_litio_militar",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:cableado_alta_tension",
+      "count": 1
+    }
+  ]
+}

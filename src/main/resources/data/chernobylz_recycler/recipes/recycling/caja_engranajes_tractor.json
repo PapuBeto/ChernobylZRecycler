@@ -1,0 +1,28 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:caja_engranajes_tractor"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 3
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 12
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:engranaje_titanio",
+      "count": 3
+    },
+    {
+      "item": "chernobylz_recycler:piston_hidraulico",
+      "count": 1
+    }
+  ]
+}

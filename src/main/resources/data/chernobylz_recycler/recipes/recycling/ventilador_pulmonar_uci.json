@@ -1,0 +1,36 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 170,
+  "ingredient": {
+    "item": "chernobylz_recycler:ventilador_pulmonar_uci"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:tela",
+      "count": 6
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 12
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:motor_paso_a_paso",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:tubo_presion",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:filtro_carbon_activado",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:placa_circuito_impreso",
+      "count": 1
+    }
+  ]
+}

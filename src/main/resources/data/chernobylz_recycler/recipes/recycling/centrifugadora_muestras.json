@@ -1,0 +1,32 @@
+{
+  "type": "chernobylz_recycler:recycling",
+  "phase": 1,
+  "processing_time": 240,
+  "ingredient": {
+    "item": "chernobylz_recycler:centrifugadora_muestras"
+  },
+  "base": [
+    {
+      "item": "chernobylz_recycler:lingote_pesado",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:scrap",
+      "count": 14
+    }
+  ],
+  "components": [
+    {
+      "item": "chernobylz_recycler:motor_paso_a_paso",
+      "count": 1
+    },
+    {
+      "item": "chernobylz_recycler:valvula_antirretorno",
+      "count": 2
+    },
+    {
+      "item": "chernobylz_recycler:placa_circuito_impreso",
+      "count": 1
+    }
+  ]
+}
